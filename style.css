@@ -1,0 +1,89 @@
+/* 
+body.dark{
+    background-color: rgba(0, 0, 0, 0.943);
+    color: rgb(255, 255, 255);
+}
+body.light{
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.726);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+/* body {
+
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(23, 23, 23, 0.785);
+    border-radius: 15px;
+}
+
+.container h1 {
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.line {
+    width: 395px;
+    height: 10px;
+    background: gray;
+    border-radius: 20px;
+}
+
+.load {
+    width: 0%;
+    height: 10px;
+    background: red;
+    border-radius: 20px;
+} */
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#file{
+    display: none;
+}
+#upload{
+    width: auto;
+    border-radius: 35px;
+    transition: background-color 0.3s ease;
+    font-weight: 800;
+    background-color:chartreuse ;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 30px;
+    padding: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#upload:hover{
+    background-color:rgb(255, 0, 0);
+}
